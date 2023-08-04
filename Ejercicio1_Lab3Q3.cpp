@@ -1,3 +1,5 @@
+//Ejercicio practico 1 - Busqueda Binaria
+
 //Bibliotecas
 #include <iostream> //Funcionalidad de entrada y salida
 #include <cstdlib> //Funcion para el manejo de memoria, generar numeros aleatorios
@@ -44,7 +46,7 @@ int busquedaBinaria(const vector<int>& arr, int numero) {
 }
 
 void mostrarMenu() {
-    cout << "==== BIENVENIDO AL  SISTEMA ====" << endl;
+    cout << "====== BUSQUEDA BINARIA ======" << endl;
     cout << "------------ MENU ------------" << endl;
     cout << "1. Realizar búsqueda" << endl;
     cout << "2. Salir" << endl;
@@ -96,4 +98,3 @@ int main() {
 
     return 0;
 }
-   
