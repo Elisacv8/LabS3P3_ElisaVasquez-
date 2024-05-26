@@ -1,6 +1,9 @@
-binary_search_example:
-  description: Ejercicio práctico 1 - Búsqueda Binaria
+binary_search_with_git:
+  description: Ejemplo de búsqueda binaria en C++ con configuración de Git
   language: C++
+  setup:
+    - git config --global user.name "Elisacv8"
+    - git config --global user.email "evasquezc@unitec.com"
   libraries:
     - iostream: Funcionalidad de entrada y salida
     - cstdlib: Función para el manejo de memoria, generar números aleatorios
