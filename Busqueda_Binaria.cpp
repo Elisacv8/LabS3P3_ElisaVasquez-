@@ -1,18 +1,16 @@
 // Busqueda_Binaria.cpp
 
-#include <iostream> // Funcionalidad de entrada y salida
-#include <cstdlib> // Función para el manejo de memoria, generar números aleatorios
-#include <ctime> // Función que permite la generación de números aleatorios
-#include <vector> // Contenedor de datos vectoriales, utilizado para almacenar los números generados
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <vector>
 
 using namespace std;
 
-// Función que devuelve un número entero aleatorio entre -500 y 500
 int obtenerNumRandom() { 
     return rand() % 1001 - 500;
 }
 
-// Función que se encarga de imprimir los elementos del vector en la consola
 void imprimirArray(const vector<int>& arr) {
     for (int num : arr) {
         cout << num << " ";
@@ -20,7 +18,6 @@ void imprimirArray(const vector<int>& arr) {
     cout << endl;
 }
 
-// Función que realiza una búsqueda binaria en el vector ordenado de enteros 
 int busquedaBinaria(const vector<int>& arr, int numero) {
     int comparaciones = 0;
     int inicio = 0;

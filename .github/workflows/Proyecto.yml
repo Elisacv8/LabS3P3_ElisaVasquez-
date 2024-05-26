@@ -28,4 +28,4 @@ jobs:
       run: g++ -o Busqueda_Binaria Busqueda_Binaria.cpp
 
     - name: Run C++ Program
-      run: ./Busqueda_Binaria
+      run: echo -e "2\n" | ./Busqueda_Binaria
